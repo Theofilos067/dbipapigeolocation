@@ -1,8 +1,6 @@
 #!/usr/bin/env python
-
 import csv
-
-import requests  # third-party, pip install requests
+import requests
 
 FIELDNAMES = (
     'ipAddress',
