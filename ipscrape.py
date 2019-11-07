@@ -23,7 +23,7 @@ def output_to_csv(filename, data):
 
 
 def get_location_data(ip_to_check):
-    r = requests.get('https://api.ipgeolocation.io/ipgeo-bulk?apiKey=9cec327ae0ba40478779cc152bbf68f9'.format(ip_to_check))
+    r = requests.get('https://api.ipgeolocation.io/ipgeo-bulk?apiKey=APIKEY'.format(ip_to_check))
     r.raise_for_status()
     return r.json()
 
